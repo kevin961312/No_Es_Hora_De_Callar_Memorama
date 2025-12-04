@@ -1,0 +1,7 @@
+{
+    "[javascript]": {
+        "editor.wordWrap": "wordWrapColumn",
+        "editor.wordWrapColumn": 150,
+        "editor.rulers": [150]
+    }
+}

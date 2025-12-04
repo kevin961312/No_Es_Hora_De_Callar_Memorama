@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>No Es Hora De Callar</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="home-screen" id="homeScreen">
+        <div class="home-logo"></div>
+        <button class="start-btn" onclick="startGame()">Comenzar</button>
+    </div>
+
+    <div class="overlay" id="matchOverlay">
+        <div class="overlay-content">
+            <div class="big-card" id="bigCard"></div>
+            <div class="card-info">
+                <h2 id="cardTitle"></h2>
+                <h3 id="cardSubtitle"></h3>
+                <p id="cardText"></p>
+                <button class="continue-btn" onclick="closeOverlay()">Continuar</button>
+            </div>
+        </div>
+    </div>
+    <div class="win-overlay" id="winOverlay">
+        <div class="win-overlay-content">
+            <img src="images/Final.gif" alt="Victoria" class="victory-gif">
+            <h2 class="win-title">¡Felicidades!</h2>
+            <p class="win-text">Completaste el juego en <span id="finalMovesOverlay"></span> movimientos</p>
+            <div class="win-buttons">
+                <button class="win-btn" onclick="playAgain()">Jugar de Nuevo</button>
+                <button class="win-btn home" onclick="returnHomeFromWin()">Volver al Inicio</button>
+            </div>
+        </div>
+    </div>
+
+    <button class="home-btn" onclick="returnHome()" title="Volver al inicio" style="display: none;" id="homeBtn">X</button>
+    
+    <div class="container" id="gameContainer" style="display: none;">
+        <h1>No Es Hora De Callar</h1>
+        
+        <div class="stats">
+            <div>Movimientos: <span id="moves">0</span></div>
+            <div>Pares encontrados: <span id="matches">0</span>/8</div>
+        </div>
+
+        <div class="game-board" id="gameBoard"></div>
+
+        <button onclick="resetGame()">Nuevo Juego</button>
+        
+        <div id="winMessage" class="win-message" style="display: none;">
+            ¡Felicidades! Ganaste en <span id="finalMoves"></span> movimientos 
+        </div>
+    </div>
+
+    <script src="game.js"></script>
+</body>
+</html>
