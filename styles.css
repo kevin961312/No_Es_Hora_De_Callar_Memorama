@@ -200,7 +200,40 @@ button:active {
     color: #333;
     font-size: 18px;
     line-height: 1.8;
-    margin-bottom: 40px;
+    margin-bottom: 15px;
+}
+
+#cardText {
+    color: #333;
+    font-size: 18px;
+    line-height: 1.8;
+}
+
+#cardText p {
+    margin-bottom: 15px;
+}
+
+#cardText b,
+#cardText strong {
+    font-weight: 700 !important;
+    color: #667eea !important;
+}
+
+b, strong {
+    font-weight: 700 !important;
+}
+
+#cardText ul,
+#cardText ol {
+    color: #333;
+    font-size: 18px;
+    line-height: 1.8;
+    margin-bottom: 20px;
+    padding-left: 30px;
+}
+
+#cardText li {
+    margin-bottom: 10px;
 }
 
 @keyframes pulse {

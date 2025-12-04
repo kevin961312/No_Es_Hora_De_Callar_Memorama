@@ -1,11 +1,11 @@
 {
+    "editor.rulers": [150],
     "editor.wordWrap": "wordWrapColumn",
     "editor.wordWrapColumn": 150,
-    "editor.rulers": [150],
     "[javascript]": {
+        "editor.rulers": [150],
         "editor.wordWrap": "wordWrapColumn",
         "editor.wordWrapColumn": 150,
-        "editor.rulers": [150],
         "editor.formatOnSave": false
     }
 }
