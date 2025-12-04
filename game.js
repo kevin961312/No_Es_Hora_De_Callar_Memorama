@@ -449,43 +449,43 @@ const allImages = [
     text: `
       <ul>
         <li>
-          <p>Ley 051 de 1981 "Por la cual se ratifica la Convención Internacional sobre la Eliminación de todas las Formas de Discriminación contra la Mujer - CEDAW para Colombia"</p>
+          <p><strong>Ley 051 de 1981.</strong> "Por la cual se ratifica la Convención Internacional sobre la Eliminación de todas las Formas de Discriminación contra la Mujer - CEDAW para Colombia"</p>
         </li>
         <li>
-          <p>Decreto 1398 de 1990. Presidencia de la República. "Por el cual se desarrolla la Ley 51 de 1981, que aprueba la Convención sobre Eliminación de todas las formas de discriminación contra la mujer, adoptada por las Naciones Unidas"</p>
+          <p><strong>Decreto 1398 de 1990. Presidencia de la República.</strong>"Por el cual se desarrolla la Ley 51 de 1981, que aprueba la Convención sobre Eliminación de todas las formas de discriminación contra la mujer, adoptada por las Naciones Unidas"</p>
         </li>
         <li>
-          <p>Constitución política de Colombia - artículos 11, 13, 15, 16, 20, 21, 25, 29, 43, 44, 67</p>
+          <p><strong>Constitución política de Colombia</strong> - artículos 11, 13, 15, 16, 20, 21, 25, 29, 43, 44, 67</p>
         </li>
         <li>
-          <p>Ley 248 de 1995. "Por medio de la cual se aprueba la Convención Internacional para prevenir, sancionar y erradicar la violencia contra la mujer, suscrita en la ciudad de Belem Do Para, Brasil, el 9 de junio de 1994"</p>
+          <p><strong>Ley 248 de 1995.</strong> "Por medio de la cual se aprueba la Convención Internacional para prevenir, sancionar y erradicar la violencia contra la mujer, suscrita en la ciudad de Belem Do Para, Brasil, el 9 de junio de 1994"</p>
         </li>
         <li>
-          <p>Ley 599 del 2000. Código Penal.</p>
+          <p><strong>Ley 599 del 2000.</strong> Código Penal.</p>
         </li>
         <li>
-          <p>Ley 984 de 2005. "Por medio de la cual se aprueba el Protocolo facultativo de la Convención sobre la eliminación de todas las formas de discriminación contra la mujer".</p>
+          <p><strong>Ley 984 de 2005.</strong> "Por medio de la cual se aprueba el Protocolo facultativo de la Convención sobre la eliminación de todas las formas de discriminación contra la mujer".</p>
         </li>
         <li>
-          <p>Ley 1010 de 2006 "por medio de la cual se adoptan medidas para prevenir, corregir y sancionar el acoso laboral y otros hostigamientos en el marco de las relaciones de trabajo"</p>
+          <p><strong>Ley 1010 de 2006.</strong> "por medio de la cual se adoptan medidas para prevenir, corregir y sancionar el acoso laboral y otros hostigamientos en el marco de las relaciones de trabajo"</p>
         </li>
         <li>
-          <p>Ley 1257 de 2008. "Por la cual se dictan normas de sensibilización, prevención y sanción de formas de violencia y discriminación contra las mujeres, se reforman los Códigos Penal, de Procedimiento Penal, la Ley 294 de 1996 y se dictan otras disposiciones".</p>
+          <p><strong>Ley 1257 de 2008.</strong> "Por la cual se dictan normas de sensibilización, prevención y sanción de formas de violencia y discriminación contra las mujeres, se reforman los Códigos Penal, de Procedimiento Penal, la Ley 294 de 1996 y se dictan otras disposiciones".</p>
         </li>
         <li>
-          <p>Ley 1542 de 2012. "Por la cual se reforma el artículo 74 de la Ley 906 de 2004, Código de Procedimiento Penal cuyo objeto es garantizar la protección y diligencia de las autoridades en la investigación de los presuntos delitos de violencia contra la mujer"</p>
+          <p><strong>Ley 1542 de 2012.</strong> "Por la cual se reforma el artículo 74 de la Ley 906 de 2004, Código de Procedimiento Penal cuyo objeto es garantizar la protección y diligencia de las autoridades en la investigación de los presuntos delitos de violencia contra la mujer"</p>
         </li>
         <li>
-          <p>Ley 1719 de 2014. "Por la cual se modifican algunos artículos de las Leyes 599 de 2000, 906 de 2004 y se adoptan medidas para garantizar el acceso a la justicia de las víctimas de violencia sexual, en especial la violencia sexual con ocasión del conflicto armado, y se dictan otras disposiciones."</p>
+          <p><strong>Ley 1719 de 2014.</strong> "Por la cual se modifican algunos artículos de las Leyes 599 de 2000, 906 de 2004 y se adoptan medidas para garantizar el acceso a la justicia de las víctimas de violencia sexual, en especial la violencia sexual con ocasión del conflicto armado, y se dictan otras disposiciones."</p>
         </li>
         <li>
-          <p>Ley 1761 de 2015 "Por la cual se crea el tipo penal de feminicidio como delito autónomo y se dictan otras disposiciones. (Rosa Elvira Cely)".</p>
+          <p><strong>Ley 1761 de 2015.</strong> "Por la cual se crea el tipo penal de feminicidio como delito autónomo y se dictan otras disposiciones. (Rosa Elvira Cely)".</p>
         </li>
         <li>
-          <p>Ley 1773 de 2016 "Por medio de la cual se crea el artículo 116A, se modifican los artículos 68A, 104, 113, 359, y 374 de la Ley 599 de 2000 y se modifica el artículo 351 de la Ley 906 de 2004" (Ley Natalia Ponce de León, Ley de Víctimas de Ataques con Ácido).</p>
+          <p><strong>Ley 1773 de 2016.<strong> "Por medio de la cual se crea el artículo 116A, se modifican los artículos 68A, 104, 113, 359, y 374 de la Ley 599 de 2000 y se modifica el artículo 351 de la Ley 906 de 2004" (Ley Natalia Ponce de León, Ley de Víctimas de Ataques con Ácido).</p>
         </li>
         <li>
-          <p>Ley 2126 de 2021 "Por la cual se regula la creación, conformación y funcionamiento de las Comisarías de Familia, se establece el órgano rector y se dictan otras disposiciones".</p>
+          <p><strong>Ley 2126 de 2021.</strong> "Por la cual se regula la creación, conformación y funcionamiento de las Comisarías de Familia, se establece el órgano rector y se dictan otras disposiciones".</p>
         </li>
       </ul>
     `,

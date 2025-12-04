@@ -172,13 +172,27 @@ button:active {
 
 .card-info {
     flex: 1;
-    padding: 60px 60px 120px 60px;
-    overflow-y: auto;
-    max-height: 100vh;
+    padding: 0;
+    overflow: hidden;
+    max-height: 80vh;
     display: flex;
     flex-direction: column;
-    justify-content: flex-start;
     position: relative;
+}
+
+.card-info-content {
+    flex: 1;
+    padding: 60px 60px 20px 60px;
+    overflow-y: auto;
+    overflow-x: hidden;
+}
+
+.card-info-footer {
+    padding: 20px 60px;
+    background: linear-gradient(to top, white 80%, transparent);
+    position: sticky;
+    bottom: 0;
+    z-index: 10;
 }
 
 .card-info h2 {
@@ -249,8 +263,6 @@ b, strong {
 }
 
 .continue-btn {
-    position: sticky;
-    bottom: 20px;
     padding: 15px 40px;
     font-size: 20px;
     background: linear-gradient(135deg, #4facfe 0%, #00f2fe 100%);
@@ -261,8 +273,7 @@ b, strong {
     font-weight: bold;
     box-shadow: 0 6px 20px rgba(0,0,0,0.3);
     transition: transform 0.2s;
-    margin-top: 40px;
-    z-index: 10;
+    width: 100%;
 }
 
 .continue-btn:hover {
