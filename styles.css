@@ -481,6 +481,10 @@ b, strong {
     transform: translateY(0);
 }
 
+.win-btn.home {
+    background: linear-gradient(135deg, #4facfe 0%, #00f2fe 100%);
+}
+
 .social-footer {
     position: fixed;
     bottom: 0;
@@ -494,10 +498,6 @@ b, strong {
     gap: 30px;
     box-shadow: 0 -2px 10px rgba(0, 0, 0, 0.3);
     z-index: 2001;
-}
-
-.win-btn.home {
-    background: linear-gradient(135deg, #4facfe 0%, #00f2fe 100%);
 }
 
 .social-link {
