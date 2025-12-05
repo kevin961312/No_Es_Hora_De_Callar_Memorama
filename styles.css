@@ -9,14 +9,21 @@ body {
     display: flex;
     flex-direction: column;
     justify-content: center;
-    align-items: center;
     min-height: 100vh;
     background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
 }
 
 .container {
     text-align: center;
-    padding: 20px;
+    padding: 20px 20px 80px 20px;
+}
+
+.game-logo {
+    width: 120px;
+    height: 120px;
+    margin: 0 auto 15px auto;
+    display: block;
+    object-fit: contain;
 }
 
 h1 {
@@ -90,6 +97,7 @@ h1 {
 
 button {
     margin-top: 20px;
+    margin-bottom: 20px;
     padding: 12px 30px;
     font-size: 16px;
     background: white;
@@ -295,6 +303,7 @@ b, strong {
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    padding-bottom: 80px;
     z-index: 2000;
 }
 
@@ -374,6 +383,10 @@ b, strong {
     justify-content: center;
     align-items: center;
     font-size: 24px;
+    font-weight: bold;
+    color: #667eea;
+    line-height: 1;
+    padding: 0;
     z-index: 100;
 }
 
@@ -470,4 +483,317 @@ b, strong {
 
 .win-btn.home {
     background: linear-gradient(135deg, #4facfe 0%, #00f2fe 100%);
+}
+
+.social-footer {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    background: linear-gradient(135deg, #5566d3 0%, #6a3d8f 100%);
+    padding: 15px 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+    box-shadow: 0 -2px 10px rgba(0, 0, 0, 0.3);
+    z-index: 2001;
+}
+
+.social-link {
+    color: rgba(255, 255, 255, 0.9);
+    transition: all 0.3s;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    background: transparent;
+}
+
+.social-link:hover {
+    color: #ffffff;
+    transform: translateY(-3px);
+    background: rgba(255, 255, 255, 0.15);
+}
+
+.social-link svg {
+    width: 24px;
+    height: 24px;
+}
+
+/* Responsive Design - Mobile */
+@media (max-width: 768px) {
+    .container {
+        padding: 10px 0.5rem;
+    }
+
+    .game-logo {
+        width: 80px;
+        height: 80px;
+        margin-bottom: 10px;
+    }
+
+    .game-board {
+        grid-template-columns: repeat(4, 1fr);
+        grid-gap: 10px;
+        padding: 15px;
+        max-width: calc(100vw - 1rem);
+        width: 100%;
+        margin: 0 auto;
+    }
+
+    .card {
+        width: 100%;
+        height: 0;
+        padding-bottom: 100%;
+        font-size: 22px;
+        position: relative;
+    }
+
+    .card::before {
+        content: '';
+        display: block;
+        position: absolute;
+        top: 0;
+        left: 0;
+        right: 0;
+        bottom: 0;
+    }
+
+    h1 {
+        font-size: 24px;
+        margin-bottom: 15px;
+    }
+
+    .stats {
+        font-size: 14px;
+        gap: 15px;
+    }
+
+    .overlay-content {
+        flex-direction: column;
+        width: 100%;
+        height: 100vh;
+        max-width: none;
+        border-radius: 0;
+        margin: 0;
+    }
+
+    .big-card {
+        min-width: 100%;
+        max-height: 35vh;
+        min-height: 35vh;
+    }
+
+    .card-info {
+        max-height: 65vh;
+    }
+
+    .card-info-content {
+        padding: 20px 20px 10px 20px;
+    }
+
+    .card-info-footer {
+        padding: 15px 20px 20px 20px;
+    }
+
+    .card-info h2 {
+        font-size: 28px;
+        margin-bottom: 15px;
+    }
+
+    .card-info h3 {
+        font-size: 18px;
+        margin-bottom: 20px;
+    }
+
+    #cardText {
+        font-size: 16px;
+        line-height: 1.6;
+    }
+
+    #cardText ul,
+    #cardText ol {
+        font-size: 16px;
+        padding-left: 25px;
+    }
+
+    .continue-btn {
+        padding: 12px 30px;
+        font-size: 18px;
+    }
+
+    .home-logo {
+        width: 200px;
+        height: 200px;
+        margin-bottom: 30px;
+    }
+
+    .start-btn {
+        padding: 15px 40px;
+        font-size: 20px;
+    }
+
+    .win-overlay-content {
+        width: 90%;
+        padding: 30px 20px;
+    }
+
+    .victory-gif {
+        width: 200px;
+        height: 200px;
+    }
+
+    .win-title {
+        font-size: 36px;
+    }
+
+    .win-text {
+        font-size: 18px;
+    }
+
+    .win-buttons {
+        flex-direction: column;
+        gap: 15px;
+        width: 100%;
+    }
+
+    .win-btn {
+        width: 100%;
+        padding: 15px 20px;
+    }
+
+    .social-footer {
+        padding: 12px 0;
+        gap: 25px;
+    }
+
+    .social-link {
+        width: 36px;
+        height: 36px;
+    }
+
+    .social-link svg {
+        width: 20px;
+        height: 20px;
+    }
+
+    .home-btn {
+        width: 40px;
+        height: 40px;
+        font-size: 20px;
+        top: 15px;
+        left: 15px;
+        line-height: 1;
+        padding: 0;
+    }
+}
+
+@media (max-width: 480px) {
+    .container {
+        padding: 10px 0.5rem;
+    }
+
+    .game-logo {
+        width: 70px;
+        height: 70px;
+        margin-bottom: 8px;
+    }
+
+    .game-board {
+        grid-template-columns: repeat(4, 1fr);
+        grid-gap: 8px;
+        padding: 12px;
+        max-width: calc(100vw - 1rem);
+        margin: 0 auto;
+    }
+
+    .card {
+        font-size: 20px;
+    }
+
+    h1 {
+        font-size: 20px;
+    }
+
+    .stats {
+        font-size: 12px;
+        gap: 10px;
+    }
+
+    .big-card {
+        min-height: 30vh;
+        max-height: 30vh;
+    }
+
+    .card-info {
+        max-height: 70vh;
+    }
+
+    .card-info-content {
+        padding: 15px 15px 10px 15px;
+    }
+
+    .card-info-footer {
+        padding: 10px 15px 15px 15px;
+    }
+
+    .social-footer {
+        padding: 10px 0;
+        gap: 20px;
+    }
+
+    .social-link {
+        width: 32px;
+        height: 32px;
+    }
+
+    .social-link svg {
+        width: 18px;
+        height: 18px;
+    }
+
+    .card-info h2 {
+        font-size: 22px;
+    }
+
+    .card-info h3 {
+        font-size: 15px;
+    }
+
+    #cardText {
+        font-size: 14px;
+    }
+
+    #cardText ul,
+    #cardText ol {
+        font-size: 14px;
+        padding-left: 20px;
+    }
+
+    .continue-btn {
+        padding: 10px 25px;
+        font-size: 16px;
+    }
+
+    .home-logo {
+        width: 150px;
+        height: 150px;
+        margin-bottom: 20px;
+    }
+
+    .start-btn {
+        padding: 12px 35px;
+        font-size: 18px;
+    }
+
+    .win-title {
+        font-size: 28px;
+    }
+
+    .win-text {
+        font-size: 16px;
+    }
 }
