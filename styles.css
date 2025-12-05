@@ -142,7 +142,7 @@ button:active {
     display: none;
     justify-content: center;
     align-items: center;
-    z-index: 1000;
+    z-index: 2500;
     animation: fadeIn 0.3s;
 }
 
@@ -636,7 +636,12 @@ b, strong {
     }
 
     .card-info-footer {
-        padding: 15px 20px 20px 20px;
+        padding: 15px 20px 25px 20px;
+    }
+
+    .continue-btn {
+        padding: 12px 30px;
+        font-size: 18px;
     }
 
     .card-info h2 {
@@ -785,7 +790,12 @@ b, strong {
     }
 
     .card-info-footer {
-        padding: 10px 15px 15px 15px;
+        padding: 10px 15px 20px 15px;
+    }
+
+    .continue-btn {
+        padding: 10px 25px;
+        font-size: 16px;
     }
 
     .social-footer {
