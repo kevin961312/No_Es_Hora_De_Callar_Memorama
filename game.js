@@ -683,6 +683,7 @@ function startGame() {
   document.getElementById("homeScreen").classList.add("hidden");
   document.getElementById("gameContainer").style.display = "block";
   document.getElementById("homeBtn").style.display = "block";
+  document.getElementById("resetBtn").style.display = "block";
   initGame();
 }
 
@@ -691,6 +692,7 @@ function returnHome() {
   document.getElementById("homeScreen").classList.remove("hidden");
   document.getElementById("gameContainer").style.display = "none";
   document.getElementById("homeBtn").style.display = "none";
+  document.getElementById("resetBtn").style.display = "none";
   document.getElementById("winMessage").style.display = "none";
 }
 

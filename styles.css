@@ -43,18 +43,19 @@ h1 {
 
 .game-board {
     display: grid;
-    grid-template-columns: repeat(4, 100px);
-    grid-gap: 10px;
+    grid-template-columns: repeat(4, 120px);
+    grid-gap: 15px;
     margin: 0 auto;
-    padding: 20px;
+    padding: 25px;
     background: rgba(255, 255, 255, 0.1);
     border-radius: 15px;
     backdrop-filter: blur(10px);
+    max-width: fit-content;
 }
 
 .card {
-    width: 100px;
-    height: 100px;
+    width: 120px;
+    height: 120px;
     background: white;
     border-radius: 10px;
     display: flex;
@@ -373,6 +374,10 @@ b, strong {
     left: 20px;
     width: 50px;
     height: 50px;
+    min-width: 50px;
+    min-height: 50px;
+    max-width: 50px;
+    max-height: 50px;
     background: white;
     border: none;
     border-radius: 50%;
@@ -387,7 +392,9 @@ b, strong {
     color: #667eea;
     line-height: 1;
     padding: 0;
+    margin: 0;
     z-index: 100;
+    flex-shrink: 0;
 }
 
 .home-btn:hover {
@@ -396,6 +403,39 @@ b, strong {
 }
 
 .home-btn:active {
+    transform: scale(0.95);
+}
+
+.reset-btn {
+    position: fixed;
+    top: 20px;
+    right: 20px;
+    padding: 0 25px;
+    font-size: 16px;
+    background: white;
+    color: #667eea;
+    border: none;
+    border-radius: 25px;
+    cursor: pointer;
+    font-weight: bold;
+    box-shadow: 0 4px 15px rgba(0,0,0,0.3);
+    transition: all 0.3s;
+    z-index: 100;
+    margin: 0;
+    line-height: 1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 50px;
+    min-height: 50px;
+}
+
+.reset-btn:hover {
+    transform: scale(1.05);
+    box-shadow: 0 6px 20px rgba(0,0,0,0.4);
+}
+
+.reset-btn:active {
     transform: scale(0.95);
 }
 
@@ -689,6 +729,14 @@ b, strong {
         line-height: 1;
         padding: 0;
     }
+
+    .reset-btn {
+        top: 15px;
+        right: 15px;
+        padding: 10px 20px;
+        font-size: 14px;
+        height: 40px;
+    }
 }
 
 @media (max-width: 480px) {
@@ -753,6 +801,11 @@ b, strong {
     .social-link svg {
         width: 18px;
         height: 18px;
+    }
+
+    .reset-btn {
+        padding: 8px 15px;
+        font-size: 12px;
     }
 
     .card-info h2 {
